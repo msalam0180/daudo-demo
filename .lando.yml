@@ -1,0 +1,4 @@
+name: daudo-demo
+recipe: drupal10
+config:
+  webroot: web
