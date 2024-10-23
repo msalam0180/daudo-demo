@@ -1,0 +1,24 @@
+uuid: 5b38665b-2946-430c-8a7f-fc37ac929276
+langcode: en
+status: true
+dependencies:
+  module:
+    - gavias_sliderlayer
+    - gaviasthemer
+  theme:
+    - daudo_subtheme
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: daudo_subtheme_gaviassliderlayerslidermain
+theme: daudo_subtheme
+region: other
+weight: -14
+provider: null
+plugin: 'gavias_sliderlayer_block:gavias_sliderlayer_block____1'
+settings:
+  id: 'gavias_sliderlayer_block:gavias_sliderlayer_block____1'
+  label: 'Gavias SliderLayer - Slider Main'
+  label_display: '0'
+  provider: gavias_sliderlayer
+visibility: {  }

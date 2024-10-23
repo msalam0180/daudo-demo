@@ -1,0 +1,29 @@
+uuid: 9a2e2766-a75f-4bfb-8a8e-7bc035da284d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:f68ff84d-6af0-4c49-8b85-ae338addc541'
+  module:
+    - block_content
+    - gaviasthemer
+  theme:
+    - daudo_subtheme
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: daudo_subtheme_linkfooter
+theme: daudo_subtheme
+region: footer_second
+weight: -13
+provider: null
+plugin: 'block_content:f68ff84d-6af0-4c49-8b85-ae338addc541'
+settings:
+  id: 'block_content:f68ff84d-6af0-4c49-8b85-ae338addc541'
+  label: 'Link footer'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

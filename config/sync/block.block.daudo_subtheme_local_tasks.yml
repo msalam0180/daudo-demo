@@ -1,0 +1,22 @@
+uuid: 3fbe9a11-6ae7-4a5c-9e1a-2b1ce8c441d0
+langcode: en
+status: true
+dependencies:
+  theme:
+    - daudo_subtheme
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: daudo_subtheme_local_tasks
+theme: daudo_subtheme
+region: help
+weight: -9
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

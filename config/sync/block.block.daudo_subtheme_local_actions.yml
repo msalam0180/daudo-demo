@@ -1,0 +1,20 @@
+uuid: a8cc5fa0-4742-48ee-9829-9d94917dd158
+langcode: en
+status: true
+dependencies:
+  theme:
+    - daudo_subtheme
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: daudo_subtheme_local_actions
+theme: daudo_subtheme
+region: help
+weight: -10
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

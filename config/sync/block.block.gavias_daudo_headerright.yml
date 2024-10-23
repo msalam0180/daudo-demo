@@ -1,0 +1,29 @@
+uuid: 8f9b084c-f136-434f-9710-2ecf5e9f1ee2
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:4a1ca12f-0764-40bd-a88c-a26020c92ea3'
+  module:
+    - block_content
+    - gaviasthemer
+  theme:
+    - gavias_daudo
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: gavias_daudo_headerright
+theme: gavias_daudo
+region: header_right
+weight: 0
+provider: null
+plugin: 'block_content:4a1ca12f-0764-40bd-a88c-a26020c92ea3'
+settings:
+  id: 'block_content:4a1ca12f-0764-40bd-a88c-a26020c92ea3'
+  label: 'Header right'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

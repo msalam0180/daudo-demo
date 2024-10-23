@@ -1,0 +1,29 @@
+uuid: 41e613ef-d875-478e-b1c7-fcc2cffa78f1
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:1c843ac3-312f-4c69-8ff3-5e0dd50a976a'
+  module:
+    - block_content
+    - gaviasthemer
+  theme:
+    - daudo_subtheme
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: pricingvertical
+theme: daudo_subtheme
+region: other
+weight: 0
+provider: null
+plugin: 'block_content:1c843ac3-312f-4c69-8ff3-5e0dd50a976a'
+settings:
+  id: 'block_content:1c843ac3-312f-4c69-8ff3-5e0dd50a976a'
+  label: 'Pricing Vertical'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

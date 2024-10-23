@@ -1,0 +1,28 @@
+uuid: f547f174-03f1-41de-b388-c5f25f94faa4
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.post_other
+  module:
+    - gaviasthemer
+    - views
+  theme:
+    - daudo_subtheme
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: views_block__post_other_block_7
+theme: daudo_subtheme
+region: footer_four
+weight: 0
+provider: null
+plugin: 'views_block:post_other-block_7'
+settings:
+  id: 'views_block:post_other-block_7'
+  label: 'Recent posts'
+  label_display: visible
+  provider: views
+  views_label: 'Recent posts'
+  items_per_page: none
+visibility: {  }

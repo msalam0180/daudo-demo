@@ -1,0 +1,29 @@
+uuid: 51d4d370-6d18-4d4b-a7b8-2f209f0255ba
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.request_call_back
+  module:
+    - gaviasthemer
+    - webform
+  theme:
+    - daudo_subtheme
+third_party_settings:
+  gaviasthemer:
+    classes: ''
+id: webform
+theme: daudo_subtheme
+region: other
+weight: 0
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: 'Webform - Request Call Back'
+  label_display: '0'
+  provider: webform
+  webform_id: request_call_back
+  default_data: ''
+  redirect: false
+visibility: {  }
